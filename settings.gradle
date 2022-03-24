@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "designPatternsJava"
 include ':app'
 include ':Strategy'
+include ':Observer'
