@@ -42,6 +42,17 @@ public class MyClass {
     }
 
     private static void rightBookApproachWithSetters() {
+
+        /**
+         * Step five
+         *
+         * Creates a Duck object but from extended class, all the method all called, snd even set
+         * method so it can be changed at run time (if you want)
+         *
+         * --this is the end of strategy pattern
+         */
+
+
         Duck modelDuck = new ModelDuck();
         modelDuck.performQuack();
         modelDuck.performFly();
