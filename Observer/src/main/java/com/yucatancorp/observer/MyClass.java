@@ -4,6 +4,15 @@ public class MyClass {
 
     public static void main(String[] args) {
 
+        /**
+         * Sixth step:
+         *
+         *  Creates a WeatherData object and initialize it.
+         *  Creates three different objects that implement the Observer interface and it pass the WeatherData object.
+         *
+         *  the setMeasurements method is called and it triggers the pattern.
+         *
+         */
         System.out.println("this is a test for the Observer module");
 
         WeatherData weatherData = new WeatherData();
