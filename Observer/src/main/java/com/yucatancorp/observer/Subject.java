@@ -13,7 +13,11 @@ public interface Subject {
      *  which will trigger the behavior needed for every observer listed in the class that implements
      *  this interface.
      *
-     * @param observer
+     * @param observer = is the object that implements the Observer interface and which is added or
+     *                 removed (depends on the method called), from the list of observers that the class
+     *                 which implements this interface has.
+     *
+     *  For third step go to DisplayElement interface
      */
 
     void registerObserver(Observer observer);
