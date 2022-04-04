@@ -1,5 +1,10 @@
 package com.yucatancorp.observer;
 
+import com.yucatancorp.observer.observers.CurrentConditionsDisplays;
+import com.yucatancorp.observer.observers.ForecastDisplay;
+import com.yucatancorp.observer.observers.StatisticsDisplay;
+import com.yucatancorp.observer.subject.WeatherData;
+
 public class MyClass {
 
     public static void main(String[] args) {

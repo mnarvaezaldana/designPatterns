@@ -1,4 +1,8 @@
-package com.yucatancorp.observer;
+package com.yucatancorp.observer.observers;
+
+import com.yucatancorp.observer.interfaces.DisplayElement;
+import com.yucatancorp.observer.subject.WeatherData;
+import com.yucatancorp.observer.interfaces.Observer;
 
 public class ForecastDisplay implements Observer, DisplayElement {
 

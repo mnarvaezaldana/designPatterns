@@ -1,4 +1,6 @@
-package com.yucatancorp.observer;
+package com.yucatancorp.observer.interfaces;
+
+import com.yucatancorp.observer.interfaces.Observer;
 
 public interface Subject {
 

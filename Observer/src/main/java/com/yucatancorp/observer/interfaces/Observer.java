@@ -1,4 +1,4 @@
-package com.yucatancorp.observer;
+package com.yucatancorp.observer.interfaces;
 
 public interface Observer {
 

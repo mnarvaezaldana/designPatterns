@@ -1,4 +1,7 @@
-package com.yucatancorp.observer;
+package com.yucatancorp.observer.subject;
+
+import com.yucatancorp.observer.interfaces.Observer;
+import com.yucatancorp.observer.interfaces.Subject;
 
 import java.util.ArrayList;
 import java.util.List;
