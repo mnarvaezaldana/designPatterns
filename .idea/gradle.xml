@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FactoryMethod" />
             <option value="$PROJECT_DIR$/Observer" />
             <option value="$PROJECT_DIR$/SimpleFactory" />
             <option value="$PROJECT_DIR$/Strategy" />
