@@ -1,5 +1,7 @@
 package com.yucatancorp.factorymethod;
 
+import com.yucatancorp.factorymethod.pizzatypes.Pizza;
+
 public abstract class PizzaStore {
 
     public Pizza orderPizza(String type) {

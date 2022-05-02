@@ -1,4 +1,4 @@
-package com.yucatancorp.factorymethod;
+package com.yucatancorp.factorymethod.pizzatypes;
 
 public class ClamPizza extends Pizza {
     @Override
