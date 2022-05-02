@@ -1,4 +1,4 @@
-package com.yucatancorp.factorymethod;
+package com.yucatancorp.factorymethod.pizzastores;
 
 import com.yucatancorp.factorymethod.pizzatypes.Pizza;
 
@@ -16,5 +16,5 @@ public abstract class PizzaStore {
         return pizza;
     }
 
-    abstract Pizza createPizza(String type);
+    public abstract Pizza createPizza(String type);
 }
