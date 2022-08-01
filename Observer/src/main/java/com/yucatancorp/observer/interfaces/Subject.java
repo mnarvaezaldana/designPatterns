@@ -1,7 +1,5 @@
 package com.yucatancorp.observer.interfaces;
 
-import com.yucatancorp.observer.interfaces.Observer;
-
 public interface Subject {
 
     /**
@@ -25,7 +23,6 @@ public interface Subject {
     void registerObserver(Observer observer);
 
     void removeObserver(Observer observer);
-
 
     void notifyObservers();
 }
